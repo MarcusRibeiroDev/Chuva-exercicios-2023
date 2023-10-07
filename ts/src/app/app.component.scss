@@ -39,6 +39,33 @@ $orange-background: #FDF1EB;
   margin: 20px 0;
 }
 
+#main-nav ul{
+  list-style-type: none;
+  text-decoration: none;
+  width: 100%;
+  padding-left: 0;
+}
+
+#main-nav ul li{
+  padding: 14px 0;
+  border-bottom: #ccc solid 2px;
+}
+
+#main-nav ul li:hover{
+  background-color: $orange-background;
+  border-left: $orange-slaca solid 6px;
+  transition: 0.2s;
+}
+
+#main-nav ul li a{
+  text-decoration: none;
+  color: $color-letters;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  padding-left: 12px;
+  font-size: 15px;
+}
+
 #main-content{
   background-color: var(--color-letters);
   flex-grow: 1;
