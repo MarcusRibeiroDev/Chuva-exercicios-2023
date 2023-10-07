@@ -5,3 +5,18 @@
   --orange-button: #ED7839;
   --orange-background: #FDF1EB;
 }
+
+body{
+  display: flex;
+  height: 100vh;
+  margin: 0;
+}
+
+#main-nav{
+  background-color: #ED7839;
+}
+
+#main-section{
+  background-color: yellow;
+  flex-grow: 1;
+}
