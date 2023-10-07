@@ -62,7 +62,6 @@ $orange-background: #FDF1EB;
 
 #main-nav ul{
   list-style-type: none;
-  text-decoration: none;
   width: 100%;
   padding-left: 0;
 }
@@ -148,21 +147,27 @@ header{
 c
 .container-avatar{
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  font-family: 'Times New Roman', Times, serif;
+  justify-content: space-around;
+}
+
+.container-avatar div{
+  display: inline-block;
 }
 
 .container-avatar h5{
   font-size: 12.5px;
   margin: 0px;
   color: $color-letters;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .container-avatar p{
   font-size: 16px;
-  margin: 0px;
   color: $color-letters;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .avatar-perfil{
@@ -171,6 +176,63 @@ c
   border-radius: 25px;
   background-image: url("../assets/images/Avatar.jpg");
   background-size: cover;
-  margin: 5px;
-}  
+} 
+
+// Sub Header
+
+main{
+  padding: 0px 30px;
+}
+
+.main-container-section-1{
+  margin: 20px 0px;
+}
+
+.sub-header-container{
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-title-test{
+  width: 75%;
+}
+
+.main-title-test h2{
+  padding: 0px;
+  margin: 0px;
+  color: $orange-slaca;
+  font-weight: 500;
+}
+
+.icons-subheader{
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.icons-subheader ul{
+  display: flex;
+  list-style-type: none;
+  margin: 0px;
+}
+
+.icons-subheader ul li{
+  background-color: $orange-button;
+  margin: 3px;
+  padding: 3px 4px;
+  height: 20px;
+  border-radius: 3px;
+}
+
+.icons-subheader ul li a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+.icons-subheader ul img{
+  width: 20px;
+  height: 20px;
+}
 
