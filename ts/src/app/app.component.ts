@@ -12,6 +12,7 @@ export class AppComponent {
   btnCreateTopic: boolean = true;
   btnSubmitForm: boolean = false;
   btnResetState: boolean = false;
+  containerComments: boolean = false;
 
   toggleTextAndButton(): void {
     this.showRestText = !this.showRestText;
@@ -31,5 +32,9 @@ export class AppComponent {
   toggleStateReset(){
     this.btnResetState = !this.btnResetState
     this.btnCreateTopic = !this.btnCreateTopic
+  }
+
+  toggleContainerComments(){
+    this.containerComments = !this.containerComments;
   }
 }

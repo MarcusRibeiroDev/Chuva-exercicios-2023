@@ -1,29 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
-// Variables
-
+/* Variables */
 $orange-slaca: rgba(237, 120, 57, 1);
 $color-letters: #725C5C;
 $background-page: #FDF1EB;
 $orange-button: #ED7839;
 $orange-background: #FDF1EB;
 
-// Main Container
-
-#main-container{
+/* Main Container */
+#main-container {
   display: flex;
   width: 100vw;
   height: 100vh;
 }
 
-// Main Nav
-
-.menu-side{
+/* Main Nav */
+.menu-side {
   position: relative;
 }
 
-#main-nav{
+#main-nav {
   background-color: #FFFFFF;
   width: 15%;
   height: 100%;
@@ -33,10 +30,9 @@ $orange-background: #FDF1EB;
   display: flex;
   align-items: center;
   flex-direction: column;
-
 }
 
-.mainnav-title-container{
+.mainnav-title-container {
   background-color: $orange-slaca;
   width: 100%;
   height: 75px;
@@ -45,7 +41,7 @@ $orange-background: #FDF1EB;
   justify-content: center;
 }
 
-.mainnav-title-container h1{
+.mainnav-title-container h1 {
   margin: 0;
   padding: 0;
   font-size: 30px;
@@ -53,31 +49,31 @@ $orange-background: #FDF1EB;
   color: #FFFFFF;
 }
 
-#main-nav img{
+#main-nav img {
   width: 95%;
   max-height: 100%;
   height: auto;
   margin: 20px 0;
 }
 
-#main-nav ul{
+#main-nav ul {
   list-style-type: none;
   width: 100%;
   padding-left: 0;
 }
 
-#main-nav ul li{
+#main-nav ul li {
   padding: 14px 0;
   border-bottom: #ccc solid 2px;
 }
 
-#main-nav ul li:hover{
+#main-nav ul li:hover {
   background-color: $orange-background;
   border-left: $orange-slaca solid 6px;
   transition: 0.2s;
 }
 
-#main-nav ul li a{
+#main-nav ul li a {
   text-decoration: none;
   color: $color-letters;
   font-family: 'Quicksand', sans-serif;
@@ -86,17 +82,15 @@ $orange-background: #FDF1EB;
   font-size: 15px;
 }
 
-// Main Content
-
-#main-content{
+/* Main Content */
+#main-content {
   position: absolute;
   left: 15%;
   width: calc(100% - 15%);
 }
 
-// Main Content Header
-
-header{
+/* Main Content Header */
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -104,11 +98,11 @@ header{
   background-color: $orange-background;
 }
 
-.main-content-title{
+.main-content-title {
   padding-left: 15px;
 }
 
-.main-content-title p{
+.main-content-title p {
   font-size: 15.5px;
   color: $color-letters;
   font-family: 'Roboto', sans-serif;
@@ -116,7 +110,7 @@ header{
   margin: 0;
 }
 
-.main-content-title h2{
+.main-content-title h2 {
   color: $color-letters;
   font-family: 'Roboto', sans-serif;
   padding: 0;
@@ -124,14 +118,14 @@ header{
   font-size: 19.25px;
 }
 
-.main-content-avatar-language{
+.main-content-avatar-language {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 40%;
 }
 
-.main-content-avatar-language select{
+.main-content-avatar-language select {
   background-image: url(../assets/icons/internet_4386645.png);
   background-size: 30px;
   background-repeat: no-repeat;
@@ -144,25 +138,26 @@ header{
   font-family: 'Quicksand', sans-serif;
   margin-right: 20px;
 }
-c
-.container-avatar{
+
+.container-avatar {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-right: 20px;
 }
 
-.container-avatar div{
+.container-avatar div {
   display: inline-block;
 }
 
-.container-avatar h5{
+.container-avatar h5 {
   font-size: 12.5px;
   margin: 0px;
   color: $color-letters;
   font-family: 'Times New Roman', Times, serif;
 }
 
-.container-avatar p{
+.container-avatar p {
   font-size: 16px;
   color: $color-letters;
   margin-bottom: 0px;
@@ -170,54 +165,53 @@ c
   font-family: 'Times New Roman', Times, serif;
 }
 
-.avatar-perfil{
+.avatar-perfil {
   width: 50px;
   height: 50px;
   border-radius: 25px;
   background-image: url("../assets/images/Avatar.jpg");
   background-size: cover;
-} 
+}
 
-// Sub Header
-
-main{
+/* Sub Header */
+main {
   padding: 0px 30px;
 }
 
-.main-container-section-1{
+.main-container-section-1 {
   margin: 20px 0px;
 }
 
-.sub-header-container{
+.sub-header-container {
   display: flex;
   font-family: 'Roboto', sans-serif;
 }
 
-.main-title-test{
+.main-title-test {
   width: 75%;
 }
 
-.main-title-test h2{
+.main-title-test h2 {
   padding: 0px;
   margin: 0px;
   color: $orange-slaca;
   font-weight: 500;
 }
 
-.icons-subheader{
+.icons-subheader {
   width: 25%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
 }
 
-.icons-subheader ul{
+.icons-subheader ul {
   display: flex;
   list-style-type: none;
   margin: 0px;
 }
 
-.icons-subheader ul li{
+.icons-subheader ul li {
   background-color: $orange-button;
   margin: 3px;
   padding: 4px;
@@ -225,7 +219,7 @@ main{
   border-radius: 3px;
 }
 
-.icons-subheader ul .icon-dowload{
+.icons-subheader ul .icon-dowload {
   width: 100px;
   display: flex;
   flex-direction: column;
@@ -233,31 +227,30 @@ main{
   justify-content: center;
 }
 
-.icons-subheader ul li a{
+.icons-subheader ul li a {
   text-decoration: none;
   color: #FFFFFF;
   font-size: 16px;
 }
 
-.icons-subheader ul img{
+.icons-subheader ul img {
   width: 20px;
   height: 20px;
 }
 
-// Container Video
-
-.container-video{
+/* Container Video */
+.container-video {
   display: flex;
   margin-top: 30px;
 }
 
-.image-video{
+.image-video {
   width: 80%;
   margin-right: 40px;
   position: relative;
 }
 
-.image-video img{
+.image-video img {
   width: 100%;
   height: 100%;
 }
@@ -268,11 +261,11 @@ main{
   height: 100%;
   top: 0;
   left: 0;
-  background-color: $orange-slaca;
+  background-color: rgba(141, 53, 6, 0.8);
   opacity: 0.5;
 }
 
-.image-video h2{
+.image-video h2 {
   position: absolute;
   top: 0;
   padding-left: 20px;
@@ -281,7 +274,7 @@ main{
   font-weight: 700;
 }
 
-.avatar-video{
+.avatar-video {
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -294,7 +287,7 @@ main{
   margin-bottom: 60px;
 }
 
-.image-video .container-text{
+.image-video .container-text {
   position: absolute;
   bottom: 0;
   padding-left: 150px;
@@ -303,20 +296,20 @@ main{
   font-family: 'Roboto', sans-serif;
 }
 
-.image-video .container-text h3{
+.image-video .container-text h3 {
   font-weight: 700;
   font-size: 35px;
   margin-bottom: 0;
 }
 
-.details-video{
+.details-video {
   background-color: #ED7839;
-  width: 250px;
+  width: 20%;
   border: #ccc solid 1px;
   border-radius: 5px;
 }
 
-.details-title{
+.details-title {
   padding-left: 5px;
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -328,39 +321,42 @@ main{
   height: 10%;
 }
 
-.details-container-text{
+.details-container-text {
   border: #ccc solid 1px;
   height: 90%;
   background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
-.strong-list{
+.strong-list {
   list-style: none;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   padding-left: 15px;
   font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
 }
 
-.transparently-list{
+.transparently-list {
   list-style: none;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   padding-left: 15px;
   font-family: 'Quicksand', sans-serif;
-  font-size: 13px;
+  font-size: 18px;
   color: #CCCCCC;
 }
 
-// Resume Section
-
-.container-resume{
+/* Resume Section */
+.container-resume {
   border: #CCCCCC solid 1px;
 }
 
-.container-resume h2{
+.container-resume h2 {
   border-bottom: #CCCCCC solid 1px;
   padding-left: 10px;
   background-color: $background-page;
@@ -370,12 +366,12 @@ main{
   font-family: 'Roboto', sans-serif;
 }
 
-.container-resume p{
+.container-resume p {
   padding-left: 10px;
   font-family: 'Quicksand', sans-serif;
 }
 
-.container-resume button{
+.container-resume button {
   border: none;
   background: transparent;
   color: #ED7839;
@@ -383,25 +379,24 @@ main{
   font-family: Quicksand;
 }
 
-.btn-show-more{
+.btn-show-more {
   font-size: 16px;
   font-weight: 600;
 }
 
-.btn-none{
+.btn-none {
   font-size: 16px;
   font-weight: 600;
 }
 
-// Comments Section
-
-.comments-section{
+/* Comments Section */
+.comments-section {
   border: #ccc solid 1px;
   border-radius: 5px;
   margin: 20px 0;
 }
 
-.comments-section h2{
+.comments-section h2 {
   border-bottom: #CCCCCC solid 1x;
   padding-left: 10px;
   background-color: $background-page;
@@ -411,14 +406,14 @@ main{
   font-family: 'Roboto', sans-serif;
 }
 
-.container-comments-section{
+.container-comments-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 10px 30px;
 }
 
-.comments-section-first-state{
+.comments-section-first-state {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -427,29 +422,29 @@ main{
   border-bottom: #ccc solid 1px;
 }
 
-.comments-section-first-state h3{
+.comments-section-first-state h3 {
   color: $orange-slaca;
   font-family: 'Roboto', sans-serif;
 }
 
-.container-comments-icons{
+.container-comments-icons {
   display: flex;
   list-style: none;
   gap: 50px;
   padding-left: 0;
 }
 
-.container-comments-icons li img{
+.container-comments-icons li img {
   width: 70px;
   height: auto;
 }
 
-.comments-section-first-state p{
+.comments-section-first-state p {
   font-family: 'Quicksand', sans-serif;
   font-size: 15.5px;
 }
 
-.btn-create-topic{
+.btn-create-topic {
   display: flex;
   align-items: center;
   background-color: $orange-button;
@@ -461,32 +456,32 @@ main{
   font-size: 17px;
 }
 
-.btn-create-topic img{
+.btn-create-topic img {
   width: 20px;
   margin: 5px;
   height: auto;
 }
 
-.comments-section-second-state{
+.comments-section-second-state {
   text-align: center;
   padding: 20px 0px;
   margin-bottom: 10px;
   border-bottom: #ccc solid 1px;
 }
 
-.comments-section-second-state form label{
+.comments-section-second-state form label {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.comments-section-second-state form label input{
+.comments-section-second-state form label input {
   width: 100%;
   height: 40px;
   border: #ccc solid 1px;
 }
 
-.comments-section-second-state form label textarea{
+.comments-section-second-state form label textarea {
   width: 100%;
   height: 100px;
   resize: none;
@@ -494,29 +489,29 @@ main{
   padding: 0;
 }
 
-.comments-section-second-state form div{
+.comments-section-second-state form div {
   display: flex;
   justify-content: flex-end;
   height: 40px;
   border: #ccc solid 1px;
 }
 
-.comments-section-second-state p{
+.comments-section-second-state p {
   font-family: 'Quicksand', sans-serif;
   font-size: 15.5px;
 }
 
-.comments-section-second-state h3{
+.comments-section-second-state h3 {
   color: $orange-slaca;
   font-family: 'Roboto', sans-serif;
 }
 
-.comments-section-second-state form div{
+.comments-section-second-state form div {
   background-color: #EAF1F2;
   width: 100%;
 }
 
-.comments-section-second-state form div button{
+.comments-section-second-state form div button {
   background-color: $orange-button;
   width: 20%;
   border-radius: 4px;
@@ -526,32 +521,32 @@ main{
   font-weight: 700;
 }
 
-.comments-section-third-state{
+.comments-section-third-state {
   padding: 20px 0px;
   margin-bottom: 10px;
 }
 
-.sucess-message{
+.sucess-message {
   text-align: center;
 }
 
-.comments-section-third-state h3{
+.comments-section-third-state h3 {
   color: $orange-slaca;
   font-family: 'Roboto', sans-serif;
 }
 
-.comments-section-third-state p{
+.comments-section-third-state p {
   font-family: 'Quicksand', sans-serif;
   font-size: 15.5px;
 }
 
-.comments-section-third-state a{
+.comments-section-third-state a {
   font-family: 'Quicksand', sans-serif;
   color: $orange-slaca;
   display: block;
 }
 
-.comments-section-third-state button{
+.comments-section-third-state button {
   background-color: $orange-button;
   width: 220px;
   height: 30px;
@@ -564,7 +559,7 @@ main{
   margin-top: 10px;
 }
 
-.feedback-message{
+.feedback-message {
   margin-top: 20px;
 }
 
@@ -577,11 +572,11 @@ main{
   position: relative;
 }
 
-.card-topics h4, .card-topics h3{
+.card-topics h4, .card-topics h3 {
   margin: 0;
 }
 
-.shadow-card-feedback{
+.shadow-card-feedback {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -591,7 +586,7 @@ main{
   left: 0;
 }
 
-.card-topics img{
+.card-topics img {
   position: absolute;
   width: 30px;
   height: auto;
@@ -606,22 +601,27 @@ main{
   color: black;
 }
 
-.card-topics a{
+.card-topics a {
   color: $orange-slaca;
   position: absolute;
   top: 70%;
   left: 47%;
 }
 
-// Cards
-
-.answered-topic{
+/* Cards */
+.answered-topic {
   border: 1px solid #ccc;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
 }
 
-.answered-topic h3{
+.answered-topic-none {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.answered-topic-none h3 {
   margin: 0;
   font-family: 'Quicksand', sans-serif;
   color: $orange-slaca;
@@ -629,20 +629,41 @@ main{
   padding-top: 10px;
 }
 
-.answered-topic h4{
-  margin-top:  5px;
+.answered-topic-none h4 {
+  margin-top: 5px;
   font-family: 'Quicksand', sans-serif;
   color: black;
   padding-left: 10px;
 }
 
-.answered-topic p{
+.answered-topic-none p {
   font-family: 'Quicksand', sans-serif;
   color: $color-letters;
   padding-left: 10px;
 }
 
-.card-icons{
+.answered-topic h3 {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  color: $orange-slaca;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.answered-topic h4 {
+  margin-top: 5px;
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  padding-left: 10px;
+}
+
+.answered-topic p {
+  font-family: 'Quicksand', sans-serif;
+  color: $color-letters;
+  padding-left: 10px;
+}
+
+.card-icons {
   display: flex;
   align-items: center;
   height: 30px;
@@ -652,17 +673,17 @@ main{
   padding-bottom: 10px;
 }
 
-.card-icons img{
+.card-icons img {
   margin: 2px;
   height: 25px;
 }
 
-.card-icons p{
+.card-icons p {
   color: $color-letters;
   font-size: 15px;
 }
 
-.card-icons button{
+.card-icons button {
   border: none;
   background-color: transparent;
   font-size: 15px;
@@ -670,16 +691,27 @@ main{
   font-family: 'Quicksand', sans-serif;
 }
 
-// Answered Comments
-
-.author-1{
+/* Answered Comments */
+.author-1 {
   background-color: #F8F8F8;
   border: #ccc solid 1px;
   font-family: 'Quicksand', sans-serif;
 }
 
-.author-2{
+.author-2 {
   background-color: #fff;
   border: #ccc solid 1px;
   font-family: 'Quicksand', sans-serif;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer img {
+  width: 95%;
+  height: auto;
 }
