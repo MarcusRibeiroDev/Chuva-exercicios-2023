@@ -303,8 +303,8 @@ main{
 
 .details-video{
   background-color: #ED7839;
-  width: 300px;
-  border: #725C5C solid 1px;
+  width: 250px;
+  border: #ccc solid 1px;
 }
 
 .details-video h4{
@@ -321,6 +321,28 @@ main{
 }
 
 .details-container-text{
-  border: #725c5c69 solid 1px;
+  border: #ccc solid 1px;
   height: 90%;
+  background-color: #FFFFFF;
 }
+
+.strong-list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 15px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.transparently-list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 15px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+  color: #CCCCCC;
+}
+
