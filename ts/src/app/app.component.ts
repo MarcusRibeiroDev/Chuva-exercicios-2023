@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'DevChuva';
+  showRestText: boolean = false;
+  showButton: boolean = true;
+
+  toggleTextAndButton(): void {
+    this.showRestText = !this.showRestText;
+    this.showButton = !this.showButton;
+  }
 }
