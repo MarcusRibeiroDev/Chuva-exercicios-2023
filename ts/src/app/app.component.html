@@ -174,9 +174,21 @@
                   <textarea name="content"></textarea>
                 </label>
                 <div>
-                  <button (click)="toggleState()" type="submit">Enviar</button>
+                  <button (click)="submitComments()" type="submit">Enviar</button>
                 </div>
               </form>
+          </div>
+
+          <div class="comments-section-third-state" *ngIf="btnResetState">
+              <div class="sucess-message">
+                  <h3>Seu tópico foi enviado com sucesso! :D</h3>
+                  <p>Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</p>
+                  <a href="#">Descubra outros trabalhos!</a>
+                  <button (click)="toggleStateReset()" >criar novo tópico</button>
+              </div>
+              <div class="feedback-message">
+
+              </div>
           </div>
 
           <div class="comments-section-aswered">

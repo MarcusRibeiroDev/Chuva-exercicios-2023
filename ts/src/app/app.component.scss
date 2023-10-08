@@ -525,3 +525,38 @@ main{
   font-size: 20px;
   font-weight: 700;
 }
+
+.comments-section-third-state{
+  text-align: center;
+  padding: 20px 0px;
+  margin-bottom: 10px;
+}
+
+.comments-section-third-state h3{
+  color: $orange-slaca;
+  font-family: 'Roboto', sans-serif;
+}
+
+.comments-section-third-state p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15.5px;
+}
+
+.comments-section-third-state a{
+  font-family: 'Quicksand', sans-serif;
+  color: $orange-slaca;
+  display: block;
+}
+
+.comments-section-third-state button{
+  background-color: $orange-button;
+  width: 15%;
+  height: 30px;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  border: #ccc solid 1px;
+  margin-top: 10px;
+}
