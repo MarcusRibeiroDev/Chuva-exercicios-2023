@@ -225,6 +225,14 @@ main{
   border-radius: 3px;
 }
 
+.icons-subheader ul .icon-dowload{
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .icons-subheader ul li a{
   text-decoration: none;
   color: #FFFFFF;
@@ -308,8 +316,7 @@ main{
   border-radius: 5px;
 }
 
-.details-video h4{
-  padding: 10px 0px;
+.details-title{
   padding-left: 5px;
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -317,7 +324,8 @@ main{
   font-size: 24px;
   background-color: $orange-background;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  height: 10%;
 }
 
 .details-container-text{
@@ -457,4 +465,66 @@ main{
   width: 20px;
   margin: 5px;
   height: auto;
+}
+
+.comments-section-second-state{
+  text-align: center;
+  padding: 20px 0px;
+  margin-bottom: 10px;
+  border-bottom: #ccc solid 1px;
+}
+
+.comments-section-second-state form label{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.comments-section-second-state form label input{
+  width: 100%;
+  height: 40px;
+  border: #ccc solid 1px;
+}
+
+.comments-section-second-state form label textarea{
+  width: 100%;
+  height: 100px;
+  resize: none;
+  border: #ccc solid 1px;
+  padding: 0;
+}
+
+.comments-section-second-state form div{
+  display: flex;
+  justify-content: flex-end;
+  height: 40px;
+  border: #ccc solid 1px;
+}
+
+.comments-section-second-state p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15.5px;
+}
+
+.comments-section-second-state h3{
+  color: $orange-slaca;
+  font-family: 'Roboto', sans-serif;
+}
+
+.comments-section-second-state form label input{
+}
+
+.comments-section-second-state form div{
+  background-color: #EAF1F2;
+  width: 100%;
+}
+
+.comments-section-second-state form div button{
+  background-color: $orange-button;
+  width: 20%;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
 }

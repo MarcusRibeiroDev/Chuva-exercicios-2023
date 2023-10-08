@@ -51,7 +51,7 @@
               </div>
               <div class="icons-subheader">
                   <ul>
-                      <li><a href="#"><img src="../assets/icons/Download.png" alt="Icon de download"> Download</a></li>
+                      <li class="icon-dowload"><a href="#"><img src="../assets/icons/Download.png" alt="Icon de download"> Download</a></li>
                       <li><a href="#"><img src="../assets/icons/Estrela.png" alt="Icon de estrela"></a></li>
                       <li><a href="#"><img src="../assets/icons/doi.png" alt="Icon escrito DOI"></a></li>
                   </ul>
@@ -71,7 +71,9 @@
               </div>
             </div>
             <div class="details-video">
-              <h4>Detalhes</h4>
+              <div class="details-title">
+                <h4>Detalhes</h4>
+              </div>
               <div class="details-container-text">
                   <ul class="strong-list">
                     <li>
@@ -145,8 +147,9 @@
       </article>
       <article class="comments-section">
         <h2>Discussões</h2>
+
         <div class="container-comments-section">
-          <div class="comments-section-first-state">
+          <div class="comments-section-first-state" *ngIf="false">
             <h3>Compartilhe suas ideias ou dúvidas com os autores!</h3>
             <ul class="container-comments-icons">
               <li><img src="../assets/icons/Icone1.png" alt="Ícone de uma mão segurando uma planta"></li>
@@ -157,6 +160,24 @@
               curiosidade? Deixe seus questionamentos ou sugestões para o autor!</p>
             <button class="btn-create-topic"><img src="../assets/icons/Criar.png" alt="ícone de mais representando a criação de um novo tópico">criar tópico</button>
           </div>
+
+          <div class="comments-section-second-state">
+            <p>Tem um dúvida ou sujestão? Compartilhe o feedback com os autores!</p>
+              <form action="">
+                <label>
+                  <h3>Assunto:</h3>
+                  <input class="subject" type="text" name="subject" placeholder="Defina um tópico sucinto para notificar os autores..." />
+                </label>
+                <label>
+                  <h3>Conteúdo</h3>
+                  <textarea name="content"></textarea>
+                </label>
+                <div>
+                  <button type="submit">Enviar</button>
+                </div>
+              </form>
+          </div>
+
           <div class="comments-section-aswered">
             
           </div>
