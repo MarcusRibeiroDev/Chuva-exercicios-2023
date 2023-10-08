@@ -149,7 +149,8 @@
         <h2>Discussões</h2>
 
         <div class="container-comments-section">
-          <div class="comments-section-first-state" *ngIf="false">
+
+          <div class="comments-section-first-state" *ngIf="btnCreateTopic">
             <h3>Compartilhe suas ideias ou dúvidas com os autores!</h3>
             <ul class="container-comments-icons">
               <li><img src="../assets/icons/Icone1.png" alt="Ícone de uma mão segurando uma planta"></li>
@@ -158,10 +159,10 @@
             </ul>
             <p>Sabia que o maior estímulo no desenvolvimento científico e cultural é a<br>
               curiosidade? Deixe seus questionamentos ou sugestões para o autor!</p>
-            <button class="btn-create-topic"><img src="../assets/icons/Criar.png" alt="ícone de mais representando a criação de um novo tópico">criar tópico</button>
+            <button class="btn-create-topic" (click)="toggleState()"><img src="../assets/icons/Criar.png" alt="ícone de mais representando a criação de um novo tópico">criar tópico</button>
           </div>
 
-          <div class="comments-section-second-state">
+          <div class="comments-section-second-state" *ngIf="btnSubmitForm">
             <p>Tem um dúvida ou sujestão? Compartilhe o feedback com os autores!</p>
               <form action="">
                 <label>
@@ -173,7 +174,7 @@
                   <textarea name="content"></textarea>
                 </label>
                 <div>
-                  <button type="submit">Enviar</button>
+                  <button (click)="toggleState()" type="submit">Enviar</button>
                 </div>
               </form>
           </div>
