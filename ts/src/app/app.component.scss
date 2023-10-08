@@ -244,7 +244,7 @@ main{
 }
 
 .image-video{
-  width: 70%;
+  width: 80%;
   margin-right: 40px;
   position: relative;
 }
@@ -274,8 +274,8 @@ main{
 }
 
 .avatar-video{
-  width: 95px;
-  height: 95px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   border: #ED7839 solid 2px;
   background-image: url("../assets/images/Avatar-Video.png");
@@ -283,14 +283,14 @@ main{
   position: absolute;
   bottom: 0;
   margin-left: 20px;
-  margin-bottom: 45px;
+  margin-bottom: 60px;
 }
 
 .image-video .container-text{
   position: absolute;
   bottom: 0;
-  padding-left: 125px;
-  margin-bottom: 40px;
+  padding-left: 150px;
+  margin-bottom: 50px;
   color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
 }
@@ -350,7 +350,6 @@ main{
 
 .container-resume{
   border: #CCCCCC solid 1px;
-  margin-bottom: 500px;
 }
 
 .container-resume h2{
