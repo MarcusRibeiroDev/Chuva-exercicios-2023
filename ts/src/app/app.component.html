@@ -126,8 +126,8 @@
               Phasellus vitae turpis auctor, mollis felis ut, commodo turpis.
               Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus.
               <button class="btn-show-more" (click)="toggleTextAndButton()" *ngIf="showButton">ver mais</button>
-              <br><br>
-              <span class="rest-text" *ngIf="showRestText">
+              <span *ngIf="showRestText">
+                <br><br>
                 Phasellus condimentum orci id leo condimentum lobortis et non lorem.
                 Quisque sollicitudin ligula in sapien scelerisque, eros vestibulum.
                 Phasellus vitae turpis auctor, mollis felis ut, commodo turpis.
@@ -138,7 +138,7 @@
                 Phasellus condimentum orci id leo condimentum lobortis et non lorem.
                 Quisque sollicitudin ligula in sapien scelerisque, eros vestibulum.
                 Quisque sollicitudin ligula in sapien scelerisque, eros vestibulum.
-                <button class=".btn-none" (click)="toggleTextAndButton()">ver menos</button>
+                <button class="btn-none" (click)="toggleTextAndButton()">ver menos</button>
               </span>
             </p>
           </div>
