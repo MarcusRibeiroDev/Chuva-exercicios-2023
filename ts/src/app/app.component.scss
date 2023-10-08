@@ -614,3 +614,72 @@ main{
 }
 
 // Cards
+
+.answered-topic{
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.answered-topic h3{
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  color: $orange-slaca;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.answered-topic h4{
+  margin-top:  5px;
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  padding-left: 10px;
+}
+
+.answered-topic p{
+  font-family: 'Quicksand', sans-serif;
+  color: $color-letters;
+  padding-left: 10px;
+}
+
+.card-icons{
+  display: flex;
+  align-items: center;
+  height: 30px;
+  font-family: 'Quicksand', sans-serif;
+  gap: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.card-icons img{
+  margin: 2px;
+  height: 25px;
+}
+
+.card-icons p{
+  color: $color-letters;
+  font-size: 15px;
+}
+
+.card-icons button{
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  color: $color-letters;
+  font-family: 'Quicksand', sans-serif;
+}
+
+// Answered Comments
+
+.author-1{
+  background-color: #F8F8F8;
+  border: #ccc solid 1px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.author-2{
+  background-color: #fff;
+  border: #ccc solid 1px;
+  font-family: 'Quicksand', sans-serif;
+}
