@@ -346,3 +346,31 @@ main{
   color: #CCCCCC;
 }
 
+// Resume Section
+
+.container-resume{
+  border: #CCCCCC solid 1px;
+  margin-bottom: 500px;
+}
+
+.container-resume h2{
+  border-bottom: #CCCCCC solid 1px;
+  padding-left: 10px;
+  background-color: $background-page;
+  margin: 0;
+  padding-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container-resume p{
+  padding-left: 10px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.container-resume button{
+  border: none;
+  background: transparent;
+  color: #ED7839;
+  font-size: 14px;
+  font-family: Quicksand;
+}
