@@ -527,9 +527,12 @@ main{
 }
 
 .comments-section-third-state{
-  text-align: center;
   padding: 20px 0px;
   margin-bottom: 10px;
+}
+
+.sucess-message{
+  text-align: center;
 }
 
 .comments-section-third-state h3{
@@ -550,7 +553,7 @@ main{
 
 .comments-section-third-state button{
   background-color: $orange-button;
-  width: 15%;
+  width: 220px;
   height: 30px;
   border-radius: 4px;
   color: #FFFFFF;
@@ -559,4 +562,53 @@ main{
   font-weight: 700;
   border: #ccc solid 1px;
   margin-top: 10px;
+}
+
+.feedback-message{
+  margin-top: 20px;
+}
+
+.card-topics {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Quicksand', sans-serif;
+  height: 150px;
+  padding: 20px;
+  position: relative;
+}
+
+.card-topics h4, .card-topics h3{
+  margin: 0;
+}
+
+.shadow-card-feedback{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: #dddddd;
+  opacity: 0.8;
+  right: 0;
+  left: 0;
+}
+
+.card-topics img{
+  position: absolute;
+  width: 30px;
+  height: auto;
+  left: 50%;
+  top: 25%;
+}
+
+.card-topics .h3-shadow {
+  position: absolute;
+  left: 38%;
+  top: 50%;
+  color: black;
+}
+
+.card-topics a{
+  color: $orange-slaca;
+  position: absolute;
+  top: 70%;
+  left: 47%;
 }
