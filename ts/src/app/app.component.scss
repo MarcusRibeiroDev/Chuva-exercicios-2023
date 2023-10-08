@@ -3,7 +3,7 @@
 
 // Variables
 
-$orange-slaca: #F0833E;
+$orange-slaca: rgba(237, 120, 57, 1);
 $color-letters: #725C5C;
 $background-page: #FDF1EB;
 $orange-button: #ED7839;
@@ -251,7 +251,7 @@ main{
 
 .image-video img{
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .overlay {
@@ -305,13 +305,13 @@ main{
   background-color: #ED7839;
   width: 250px;
   border: #ccc solid 1px;
+  border-radius: 5px;
 }
 
 .details-video h4{
-  height: 10%;
-  margin: 0;
-  padding: 0;
+  padding: 10px 0px;
   padding-left: 5px;
+  margin: 0;
   font-family: 'Roboto', sans-serif;
   font-size: 600;
   font-size: 24px;
@@ -357,7 +357,8 @@ main{
   padding-left: 10px;
   background-color: $background-page;
   margin: 0;
-  padding-top: 20px;
+  padding: 10px 0px;
+  padding-left: 5px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -382,4 +383,78 @@ main{
 .btn-none{
   font-size: 16px;
   font-weight: 600;
+}
+
+// Comments Section
+
+.comments-section{
+  border: #ccc solid 1px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.comments-section h2{
+  border-bottom: #CCCCCC solid 1x;
+  padding-left: 10px;
+  background-color: $background-page;
+  margin: 0;
+  padding: 10px 0px;
+  padding-left: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container-comments-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 30px;
+}
+
+.comments-section-first-state{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+  margin-bottom: 10px;
+  border-bottom: #ccc solid 1px;
+}
+
+.comments-section-first-state h3{
+  color: $orange-slaca;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container-comments-icons{
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  padding-left: 0;
+}
+
+.container-comments-icons li img{
+  width: 70px;
+  height: auto;
+}
+
+.comments-section-first-state p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15.5px;
+}
+
+.btn-create-topic{
+  display: flex;
+  align-items: center;
+  background-color: $orange-button;
+  padding: 1px 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: auto;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 17px;
+}
+
+.btn-create-topic img{
+  width: 20px;
+  margin: 5px;
+  height: auto;
 }
